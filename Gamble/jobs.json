@@ -1,0 +1,95 @@
+{
+    "Regular Jobs": [
+        {
+            "job_name": "blacksmith",
+            "details": {
+                "displayname": "Blacksmith",
+                "description": "Able to create weapons and armor from any raw materials",
+                "payperday": 2000,
+                "icon": null,
+                "job_id": 1,
+                "required_items": {
+                    "item_id": 43
+                }
+            }
+        },
+        {
+            "job_name": "coalminer",
+            "details": {
+                "displayname": "Coal Miner",
+                "description": "Man made out of mud who tries to live with little pay",
+                "payperday": 300,
+                "icon": null,
+                "job_id": 2
+            }
+        },
+        {
+            "job_name": "accountant",
+            "details": {
+                "displayname": "Accountant",
+                "description": "If you like working with numbers, then this job is defenitly for you",
+                "payperday": 8400,
+                "icon": null,
+                "job_id": 6
+            }
+        },
+        {
+            "job_name": "farmer",
+            "details": {
+                "displayname": "Farmer",
+                "description": "Just a simple farmer, trying to get by just selling hay and whatnot",
+                "payperday": 1200,
+                "icon": null,
+                "job_id": 7
+            }
+        }
+    ],
+    "Premium Jobs": [
+        {
+            "job_name": "droneoperator",
+            "details": {
+                "displayname": "Drone Operator",
+                "description": "Works with military grade drones to provide surveillance and support",
+                "payperday": 10000,
+                "icon": null,
+                "job_id": 2
+            }
+        },
+        {
+            "job_name": "assassian",
+            "details": {
+                "displayname": "Assassian",
+                "description": "Skilled hitman who tries to stay under the radar while getting the job done",
+                "payperday": 24000,
+                "icon": null,
+                "job_id": 3
+            }
+        },
+        {
+            "job_name": "podcasthost",
+            "details": {
+                "displayname": "Podcast Host",
+                "description": "Make sure you stay relevent for those who clip those",
+                "payperday": 12000,
+                "icon": null,
+                "job_id": 4,
+                "required_items": {
+                    "item_id": 61
+                }
+            }
+        },
+        {
+            "job_name": "militaryengineer",
+            "details": {
+                "displayname": "Military Engineer",
+                "description": "In your job, defense comes first! You create the greatest tech of all time",
+                "payperday": 40000,
+                "icon": "https://cdn.discordapp.com/ephemeral-attachments/1251259500522897520/1252168451368292362/DALLE_2024-06-17_02.49.38_-_Pixel_art_of_a_military_engineer._The_engineer_should_be_in_a_serious_and_cinematic_pose_wearing_military_fatigues_with_tactical_gear._They_are_holdi.webp?ex=66713c3e&is=666feabe&hm=51ee486ee3df03702ac7a584cc3a93a95363c611f7afcc2075b1d910ac84e116&",
+                "job_id": 5,
+                "required_items": {
+                    "item_id": 57
+                }
+            }
+        }
+    ]
+}

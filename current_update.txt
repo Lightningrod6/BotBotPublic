@@ -1,0 +1,1 @@
+Been a while since the last update, I have been working on a dashboard for the bot that will expand the customizability for the bot. More information will be released soon but for now make sure to do /getupdate to see regular updates. Also bot will be down today possibly between 1-5pm due to FINALLY moving to a proper vps. We are going places

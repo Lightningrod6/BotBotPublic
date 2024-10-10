@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: discord-ext-ipcx
+Version: 0.2.2
+Summary: Maintained and updated version of discord-ext-ipc for discord.py v2
+Author-email: No767 <73260931+No767@users.noreply.github.com>
+Maintainer-email: No767 <73260931+No767@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/No767/discord-ext-ipcx
+Project-URL: Documentation, https://discord-ext-ipcx.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/No767/discord-ext-ipcx
+Project-URL: Issues, https://github.com/No767/discord-ext-ipcx/issues
+Keywords: discord.py,asyncio,networking,discord-ext-ipcx,discord-ext-ipc
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: discord.py <3,>=2
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pyright ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: python-dotenv ; extra == 'dev'
+Requires-Dist: quart <0.20.0,>=0.18.4 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ==7.2.6 ; extra == 'docs'
+Requires-Dist: sphinx-autobuild >=2021.3.14 ; extra == 'docs'
+Requires-Dist: furo >=2023.8.19 ; extra == 'docs'
+Requires-Dist: sphinx-copybutton >=0.5.2 ; extra == 'docs'
+
+<div align=center>
+
+# discord-ext-ipcx
+
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/discord-ext-ipcx?logo=python&logoColor=white&label=Python)](https://pypi.org/project/discord-ext-ipcx/) [![CodeQL](https://github.com/No767/discord-ext-ipcx/actions/workflows/codeql.yml/badge.svg)](https://github.com/No767/discord-ext-ipcx/actions/workflows/codeql.yml) [![Build and Publish](https://github.com/No767/discord-ext-ipcx/actions/workflows/build_and_publish.yml/badge.svg)](https://github.com/No767/discord-ext-ipcx/actions/workflows/build_and_publish.yml) [![Lint](https://github.com/No767/discord-ext-ipcx/actions/workflows/lint.yml/badge.svg)](https://github.com/No767/discord-ext-ipcx/actions/workflows/lint.yml) [![PyPI - License](https://img.shields.io/pypi/l/discord-ext-ipcx?logo=github&logoColor=white&label=License)](https://github.com/No767/discord-ext-ipcx/blob/main/LICENSE) [![PyPI - Version](https://img.shields.io/pypi/v/discord-ext-ipcx?logo=pypi&logoColor=white&label=Version&link=https%3A%2F%2Fpypi.org%2Fproject%2Fdiscord-ext-ipcx%2F)](https://pypi.org/project/discord-ext-ipcx/)
+
+An maintained discord.py extension for inter-process communication
+
+<div align=left>
+
+## Installation
+
+**Python 3.8 or higher is required**
+
+To install the library, you can just run the following command:
+
+```bash
+# On Linux/MacOS
+python3 -m pip install discord-ext-ipcx
+
+# On Windows
+py -m pip install discord-ext-ipcx
+```
+
+To install the development version, do the following:
+
+```bash
+$ git clone https://github.com/No767/discord-ext-ipcx
+$ cd discord-ext-ipcx
+$ python3 -m pip install -U .
+```
+
+## Resources
+
+- [Documentation](https://discord-ext-ipcx.readthedocs.io/en/stable)
+- [Examples](https://github.com/No767/discord-ext-ipcx/tree/main/examples)
+
+## Motivation and differences
+
+I forked and upgraded the discord-ext-ipc library to now work with discord.py v2 or higher. The primary reason why is that most of the "IPC" libraries out there are slow and I desperately needed a better IPC library for myself. The core has been kept almost intact, but here are some the changes worth noting:
+
+- The `start` method is now an coroutine and needs to be awaited.
+- Actually type hinting the library
+
+More in the future may be added or deleted.

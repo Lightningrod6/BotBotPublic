@@ -1,0 +1,17 @@
+discord
+google-generativeai
+python-dotenv
+requests
+Pillow>=8.0.0
+mysql-connector-python
+datetime
+flask
+gunicorn
+redis
+pymongo
+PyNaCl
+discord.py[voice]
+psycopg2-binary
+quart
+quart-discord
+discord-ext-ipc

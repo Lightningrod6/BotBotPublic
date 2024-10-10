@@ -1,0 +1,2 @@
+[phases.setup]
+     aptPkgs = ['...', 'libopus0', 'ffmpeg', 'opus-tools', 'libopus-dev']

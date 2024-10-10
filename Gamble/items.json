@@ -1,0 +1,506 @@
+{
+    "Common": {
+        "Piece of String": {
+            "value": 1,
+            "icon": null,
+            "item_id": 1,
+            "description": "A piece of string, not much to say about it."
+        },
+        "Bottle cap": {
+            "value": 1,
+            "icon": null,
+            "item_id": 2,
+            "description": "Weren't these in fallout or something?"
+        },
+        "Candy wrapper": {
+            "value": 3,
+            "icon": null,
+            "item_id": 3,
+            "description": "Smells like chocolate"
+        },
+        "Empty can": {
+            "value": 5,
+            "icon": null,
+            "item_id": 4,
+            "description": "Looks kind of rusty..."
+        },
+        "Old newspaper": {
+            "value": 10,
+            "icon": null,
+            "item_id": 5,
+            "description": "They hit the what now?"
+        },
+        "Leaf": {
+            "value": 1,
+            "icon": null,
+            "item_id": 6,
+            "description": "Use to pick these off of trees"
+        },
+        "Garbage bag": {
+            "value": 6,
+            "icon": null,
+            "item_id": 7,
+            "description": "Why is this wet??"
+        },
+        "Tag": {
+            "value": 3,
+            "icon": null,
+            "item_id": 8,
+            "description": "It just says 'Hello my name is fiojif'"
+        },
+        "Samsung Galaxy 24S": {
+            "value": 0,
+            "icon": null,
+            "item_id": 9,
+            "description": "Goofy ahh phone, who uses an android??"
+        }
+    },
+    "Uncommon": {
+        "Shoe": {
+            "value": 25,
+            "icon": null,
+            "item_id": 10,
+            "description": "Size 10, just my size"
+        },
+        "Fishing line": {
+            "value": 15,
+            "icon": null,
+            "item_id": 11,
+            "description": "If only I had a fishing pole..."
+        },
+        "Sock": {
+            "value": 17,
+            "icon": null,
+            "item_id": 12,
+            "description": "Why is it so crusty??"
+        },
+        "Napkins": {
+            "value": 8,
+            "icon": null,
+            "item_id": 13,
+            "description": "Ugh, its sticky..."
+        },
+        "Plastic bag": {
+            "value": 5,
+            "icon": null,
+            "item_id": 14,
+            "description": "Has the Walmart logo on it..."
+        },
+        "Plastic bottle": {
+            "value": 7,
+            "icon": null,
+            "item_id": 15,
+            "description": "Green on the outside, yet it looks clean inside"
+        },
+        "Pencil": {
+            "value": 9,
+            "icon": null,
+            "item_id": 16,
+            "description": "Freshly sharpened with bite marks"
+        },
+        "Wire": {
+            "value": 12,
+            "icon": null,
+            "item_id": 17,
+            "description": "I've seen these inside of circuts"
+        },
+        "Scissors": {
+            "value": 23,
+            "icon": null,
+            "item_id": 18,
+            "description": "Best not to run with them"
+        },
+        "Type writer": {
+            "value": 55,
+            "icon": null,
+            "item_id": 19,
+            "description": "Wow, I haven't seen one of these in years!"
+        },
+        "Glass frame": {
+            "value": 32,
+            "icon": null,
+            "item_id": 20,
+            "description": "If only I had some glasses to put on it..."
+        },
+        "Rocks": {
+            "value": 8,
+            "icon": null,
+            "item_id": 21,
+            "description": "Good enough for my pebble collection"
+        },
+        "Duct tape": {
+            "value": 10,
+            "icon": null,
+            "item_id": 22,
+            "description": "The most useful tool in the world"
+        }
+    },
+    "Rare": {
+        "Coin": {
+            "value": 30,
+            "icon": null,
+            "item_id": 23,
+            "description": "A coin worth more than the value of a man"
+        },
+        "9mm Bullet Casing": {
+            "value": 37,
+            "icon": null,
+            "item_id": 24,
+            "descrption": "Guess there was a shoot out here"
+        },
+        "Needle": {
+            "value": 65,
+            "icon": null,
+            "item_id": 25,
+            "description": "Wish I knew how to sew"
+        },
+        "Cassette Tape": {
+            "value": 74,
+            "icon": null,
+            "item_id": 26,
+            "description": "Looks like its been used"
+        },
+        "Scrap Metal": {
+            "value": 120,
+            "icon": null,
+            "item_id": 27,
+            "description": "I could make something sharp"
+        },
+        "Microchip": {
+            "value": 154,
+            "icon": null,
+            "item_id": 28,
+            "description": "It looks untouched"
+        },
+        "Screw": {
+            "value": 45,
+            "icon": null,
+            "item_id": 29,
+            "description": "I could screw something in it if I had a screw driver"
+        },
+        "Bolt": {
+            "value": 45,
+            "icon": null,
+            "item_id": 30,
+            "description": "If I had a screw I could probably do something with it"
+        },
+        "Gunpowder": {
+            "value": 144,
+            "icon": null,
+            "item_id": 31,
+            "description": "Dusty gold"
+        },
+        "Processer": {
+            "value": 201,
+            "icon": null,
+            "item_id": 32,
+            "description": "Has the Intel logo on it, disappointing"
+        },
+        "Battery": {
+            "value": 198,
+            "icon": null,
+            "item_id": 33,
+            "description": "I wonder what happens if I hooked a bunch of these up"
+        },
+        "Face Mask": {
+            "value": 213,
+            "icon": null,
+            "item_id": 34,
+            "description": "Now I wont get covid"
+        },
+        "Knife": {
+            "value": 244,
+            "icon": null,
+            "item_id": 35,
+            "description": "It would be a shame if somebody crossed me"
+        },
+        "Hatchet": {
+            "value": 254,
+            "icon": null,
+            "item_id": 36,
+            "description": "Looks like the ones the military use"
+        },
+        "Old Pokeball": {
+            "value": 300,
+            "icon": null,
+            "item_id": 37,
+            "description": "Its empty..."
+        },
+        "Sleeping bag": {
+            "value": 313,
+            "icon": null,
+            "item_id": 38,
+            "description": "Looks like im settled for the night"
+        },
+        "2x4 Wood": {
+            "value": 345,
+            "icon": null,
+            "item_id": 39,
+            "description": "If I had enough, I could build a house"
+        },
+        "Sheet metal": {
+            "value": 379,
+            "icon": null,
+            "item_id": 40,
+            "description": "Looks strong enough to stop a bullet"
+        },
+        "Saw blade": {
+            "value": 401,
+            "icon": null,
+            "item_id": 41,
+            "description": "Super shard blade tht could cut through anything"
+        },
+        "Hammer": {
+            "value": 189,
+            "icon": null,
+            "item_id": 42,
+            "description": "Stainless steel hammer, good for breaking things"
+        },
+        "RAM": {
+            "value": 340,
+            "icon": null,
+            "item_id": 82,
+            "description": "Maybe if I had a computer, I could use it to save some memory"
+        }
+    },
+    "Epic": {
+        "9mm Bullet": {
+            "value": 500,
+            "icon": null,
+            "item_id": 43,
+            "description": "A clean 9mm bullet ready to be fired"
+        },
+        "Notebook": {
+            "value": 600,
+            "icon": null,
+            "item_id": 44,
+            "description": "A laptop thats been through a lot"
+        },
+        "Gun Instructions": {
+            "value": 748,
+            "icon": null,
+            "item_id": 45,
+            "description": "A notebook full of gun instructions, maybe I can make my own..."
+        },
+        "Toolbox": {
+            "value": 839,
+            "icon": null,
+            "item_id": 46,
+            "description": "A toolbox! I could store all my tools in here!"
+        },
+        "Circuit Board": {
+            "value": 754,
+            "icon": null,
+            "item_id": 47,
+            "description": "What if I made a robot with this?"
+        },
+        "Arduino Microcontroller": {
+            "value": 833,
+            "icon": null,
+            "item_id": 48,
+            "description": "Engineers love this thing!"
+        },
+        "Large wire": {
+            "value": 631,
+            "icon": null,
+            "item_id": 49,
+            "description": "Maybe I can hook this up to a battery?"
+        },
+        "Wallet": {
+            "value": 544,
+            "icon": null,
+            "item_id": 50,
+            "description": "A wallet to hold my riches"
+        },
+        "iPhone 12": {
+            "value": 942,
+            "icon": null,
+            "item_id": 51,
+            "description": "Are they still selling these?"
+        },
+        "$400 Computer": {
+            "value": 400,
+            "icon": null,
+            "item_id": 52,
+            "description": "A computer that can run minecraft at 30fps"
+        },
+        "Combat Knife": {
+            "value": 900,
+            "icon": null,
+            "item_id": 53,
+            "description": "Now we're getting tactical"
+        },
+        "Paintball Gun": {
+            "value": 890,
+            "icon": null,
+            "item_id": 54,
+            "description": "Some harmless fun"
+        },
+        "Key to something": {
+            "value": 575,
+            "icon": null,
+            "item_id": 55,
+            "description": "I wonder where this goes to..."
+        },
+        "Power Saw": {
+            "value": 1277,
+            "icon": null,
+            "item_id": 56,
+            "description": "I wonder if I can make this shoot saw blades"
+        },
+        "Screwdriver": {
+            "value": 590,
+            "icon": null,
+            "item_id": 57,
+            "description": "The most useful tool in the world"
+        },
+        "Fire Axe": {
+            "value": 780,
+            "icon": null,
+            "item_id": 58,
+            "description": "Effective... against doors."
+        },
+        "85mm Shell": {
+            "value": 1300,
+            "icon": null,
+            "item_id": 59,
+            "description": "I wonder if there are any artillery guns around here..."
+        }
+    },
+    "Legendary": {
+        "Glock 17": {
+            "value": 2000,
+            "icon": null,
+            "item_id": 60,
+            "description": "Now I got some self defense"
+        },
+        "Regular Computer": {
+            "value": 1500,
+            "icon": null,
+            "item_id": 61,
+            "description": "A computer good enough to do some work on"
+        },
+        "Glock 17 Magazine": {
+            "value": 1000,
+            "icon": null,
+            "item_id": 62,
+            "description": "Cant have a glock without the bullets"
+        },
+        "Bag full of money": {
+            "value": 7500,
+            "icon": null,
+            "item_id": 63,
+            "description": "This looks like a lot of money..."
+        },
+        "Gold Watch": {
+            "value": 12500,
+            "icon": null,
+            "item_id": 64,
+            "description": "Time to flex on everyone"
+        },
+        "Keys to a car": {
+            "value": 37500,
+            "icon": null,
+            "item_id": 65,
+            "description": "Is this the subaru logo?"
+        },
+        "125mm shell": {
+            "value": 35000,
+            "icon": null,
+            "item_id": 66,
+            "description": "Don't the Russians use these?"
+        },
+        "Jet Engine": {
+            "value": 600000,
+            "icon": null,
+            "item_id": 67,
+            "description": "Theres a logo that says 'Lockheed Martin' on it. Must be powerful"
+        },
+        "Bag full of gun parts": {
+            "value": 5400,
+            "icon": null,
+            "item_id": 68,
+            "description": "Maybe if I had a vice, I could make a gun out of this"
+        },
+        "Box of 9mm bullets": {
+            "value": 25500,
+            "icon": null,
+            "item_id": 69,
+            "description": "Cant have a magazine without the bullets"
+        },
+        "Skibidi Toilet": {
+            "value": 500000,
+            "icon": null,
+            "item_id": 70,
+            "description": "This was added in by aladdin7127 blame him for this"
+        },
+        "Gucci Ski mask": {
+            "value": 3900,
+            "icon": null,
+            "item_id": 71,
+            "description": "We got that shiesty onnnnn"
+        },
+        "AMD Ryzen 5 5600X": {
+            "value": 7000,
+            "icon": null,
+            "item_id": 72,
+            "description": "This says it has 12 cores! Must be powerful!"
+        },
+        "iPhone 15 Pro Max": {
+            "value": 5430,
+            "icon": null,
+            "item_id": 73,
+            "description": "Something the poor doesn't have"
+        },
+        "AAAAAAAAAAAAAAAAAAAAAAAA": {
+            "value": 10000,
+            "icon": null,
+            "item_id": 74,
+            "description": "IM GOING INSANE!!!!"
+        }
+    },
+    "Mythical": {
+        "High Explosive Missile": {
+            "value": 9000000,
+            "icon": null,
+            "item_id": 75,
+            "description": "Looks like I can destroy a house"
+        },
+        "Nuclear Launch Codes": {
+            "value": 36000000,
+            "icon": null,
+            "item_id": 76,
+            "description": "Can't let the feds know I have this"
+        },
+        "The deed to an Island": {
+            "value": 240000000,
+            "icon": null,
+            "item_id": 77,
+            "description": "Can't believe I won that MrBeast challenge"
+        },
+        "Switzerland": {
+            "value": 7348900,
+            "icon": null,
+            "item_id": 78,
+            "description": "I own a country now!"
+        },
+        "Gaming Computer": {
+            "value": 590000,
+            "icon": null,
+            "item_id": 79,
+            "description": "This can run ANY game at 100+ fps"
+        },
+        "SAM Site": {
+            "value": 2400000,
+            "icon": null,
+            "item_id": 80,
+            "description": "No enemy planes will fly above here"
+        },
+        "Halo: Combat Evolved for the Xbox 360": {
+            "value": 9999999999,
+            "icon": null,
+            "item_id": 81,
+            "description": "The best game ever made"
+        }
+    }
+}
